@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <launch>
-    <!-- Node to execute the go2pose script -->
     <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
     <node name="go2pose_node" pkg="turtlesim_tutorial" type="go2pose.py" output="screen"/>
 </launch>
